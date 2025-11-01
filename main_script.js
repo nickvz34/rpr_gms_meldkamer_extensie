@@ -259,7 +259,7 @@ $(document).ready(() => {
             beschikbareEenheden.forEach(option => {
                 let roepnummers = option?.eenheid_roepnummer?.split(roepnummerSplitter) ?? [option];
 
-                const isNietBeschikbaar = option?.eenheid_afdeling === "brandweer" && (option?.eenheid_status != 4 && option?.eenheid_status != 5) || option?.eenheid_afdeling === 'ambu' && (option?.eenheid_status != 5 && option?.eenheid_status != 6);
+                const isNietBeschikbaar = option?.eenheid_afdeling === "brandweer" && (option?.eenheid_status != 4 && option?.eenheid_status != 5) || option?.eenheid_afdeling === 'ambulance' && (option?.eenheid_status != 5 && option?.eenheid_status != 6);
 
                 roepnummers?.forEach(roepnummer => {
                     const isHaaglandenObj = typeof roepnummer === 'object';
@@ -1679,11 +1679,10 @@ $(document).ready(() => {
 
         const searchQuery = String($('#kladblok_sendmsg').val()).trim();
 
-        if (huidigGeselecteerdeMelding.melding_id === 0) {
+        const huidigeMelding = meldingen.find(melding => melding.melding_id === huidigGeselecteerdeMelding.melding_id);
+        if (!huidigeMelding) {
             toastr.error('Er is geen melding geselecteerd om in te kunnen typen!');
-
             refreshAll();
-
             return;
         }
 
@@ -1775,6 +1774,62 @@ $(document).ready(() => {
             return;
         }
 
+        const koppelCommandoMatch = searchQuery.match(/^\.kop\s+(.+)$/);
+        if (koppelCommandoMatch) {
+            const roepnummersMatch = koppelCommandoMatch[1].match(/(?:rt)?\d{2,6}(?:-\d{1,4})?/g);
+            if (!roepnummersMatch || roepnummersMatch.length === 0) return;
+
+            let meldingObj = structuredClone(huidigeMelding);
+            meldingObj.gekoppelde_eenheden ??= [];
+
+            roepnummersMatch.forEach(roepnummer => {
+
+                const eenheid = eenheden.find(eenh => {
+                    const politieMatch = eenh.eenheid_roepnummer.toUpperCase().trim() === roepnummer.toUpperCase();
+                    const brwAmbuMatch = eenh.eenheid_roepnummer.toUpperCase().trim().includes(roepnummer.toUpperCase()) || eenh.eenheid_roepnummer.toUpperCase().trim().replaceAll('-', '').includes(roepnummer.toUpperCase());
+                    return politieMatch || brwAmbuMatch;
+                });
+
+                if (!eenheid) return toastr.error(`De eenheid met roepnummer: ${JSON.stringify(roepnummer)} kon niet worden gevonden!`);
+
+                let status = mapGetOnKoppel(eenheid.eenheid_afdeling);
+                meldingObj.gekoppelde_eenheden.push({
+                    eenheid_afdeling: eenheid.eenheid_afdeling,
+                    eenheid_roepnummer: eenheid.eenheid_roepnummer,
+                    eenheid_status: status
+                });
+
+                if (eenheid?.eenheid_melding) {
+                    pendingKoppelingen[eenheid.eenheid_roepnummer] = {
+                        roepnummer: eenheid.eenheid_roepnummer,
+                        afdeling: eenheid.eenheid_afdeling,
+                        aantal: eenheid.eenheid_m_aantal,
+                        status: status,
+                        melding: meldingObj
+                    };
+                    socket.emit("eenheid:ontkoppel", eenheid.eenheid_roepnummer, true)
+                } else {
+                    socket.emit("eenheid:melding_koppel", eenheid.eenheid_roepnummer, eenheid.eenheid_afdeling, huidigGeselecteerdeMelding.nummer, huidigGeselecteerdeMelding.melding_id, eenheid.eenheid_m_aantal, status, meldingObj);
+                }
+                generateMeldingen();
+            });
+
+
+            $('#kladblok_sendmsg').val('');
+            return;
+        }
+
+        const prioCommandoMatch = searchQuery.match(/^\.prio\s+([1-3])$/);
+        if (prioCommandoMatch) {
+            const prioriteit = parseInt(prioCommandoMatch[1], 10);
+            const socketValue = prioriteit === 1 ? "-spoed (ingeschat als spoed-melding" : prioriteit === 2 ? "-nu (ingeschat als nu-melding" : "-later (ingeschat als later-melding";
+
+            socket.emit('meldkamer:update_melding_prio', huidigeMelding.melding_id, socketValue);
+
+            $('#kladblok_sendmsg').val('');
+            return;
+        }
+
         if (searchQuery === ".mr") {
             $('#kladblok_sendmsg').val('');
 
@@ -1834,7 +1889,7 @@ $(document).ready(() => {
                     continue;
                 }
 
-                if (!['-prio1', '-p1', '-prio2', '-p2', '-prio3', '-p3'].some(str => String(message).toLowerCase().trim().startsWith(str.toLowerCase()))) socket.emit("create_kladblok_tekst", huidigGeselecteerdeMelding.melding_id, getCurrentTimeShort(), meldkamer.meldkamer_naam, message);
+                socket.emit("create_kladblok_tekst", huidigGeselecteerdeMelding.melding_id, getCurrentTimeShort(), meldkamer.meldkamer_naam, message);
 
                 if (type === 'classificatie') {
                     const afkorting = message.split(' | ')[0];
