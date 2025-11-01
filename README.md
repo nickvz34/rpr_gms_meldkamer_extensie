@@ -41,7 +41,7 @@
 Zorg er allereerst voor dat **Tampermonkey** correct is geïnstalleerd in je browser.  
 Op [de officiële Tampermonkey-website](https://www.tampermonkey.net/) vind je een uitleg over hoe je Tampermonkey kunt installeren.
 
-#### 👉 [Installeer hier de GMS-extensie](https://github.com/nickvz34/rpr_gms_meldkamer_extensie/releases/latest/download/main_script.js)
+#### 👉 [Installeer hier de GMS-extensie](https://github.com/nickvz34/rpr_gms_meldkamer_extensie/releases/latest/download/main_script.user.js)
 
 > Wanneer je de extensie voor het eerst gebruikt binnen het GMS, wordt er gevraagd om toestemming te geven voor het inladen van externe bronnen.  
 > Dit zijn aanvullende scripts die nodig zijn om bepaalde functies te laten werken, evenals databestanden zoals realistische classificaties, karakteristieken en straatnamen.
