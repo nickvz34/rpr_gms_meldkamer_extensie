@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RPR GMS Meldkamer Extensie
 // @namespace    https://github.com/nickvz34/rpr_gms_meldkamer_extensie
-// @version      2025.10.13
+// @version      2025.11.01
 // @description  Een Tampermonkey-script dat verschillende realistische functies toevoegt aan het huidige RPR GMS voor de Meldkamer.
 // @author       Nick v Z.
 // @match        https://gms.roleplayreality.nl/meldkamer/
