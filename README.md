@@ -11,24 +11,32 @@
 <br>
 
 ## 🧩 Functies
-- **🖌️ Classificaties & Karakteristieken:** De classificaties & karakteristieken volgens het officiële LMS bestand volgens [C2000.nl](https://www.c2000.nl/).
-- **💬 Chatbuffer:** Je kan voor jezelf meerdere kladblok regels typen zonder dat deze direct naar andere verstuurd worden. Door dubbel te klikken op een kladblok regel die nog niet verzonden is kan je deze ook nog aanpassen. Als je alle openstaande regels wilt verzenden type je `.mr` in de chat.
-- **📟 Geadvanceerde pager:** Een uitgebreider menu om eenheden van de Ambulance of Brandweer te alarmeren. Zo kan je de pagertekst handmatig aanpassen, de classificatie wijzigen, props toevoegen en zijn er meer en buurregio eenheden beschikbaar (Bron: [Meldkamerspel](https://forum.meldkamerspel.com/index.php?board/36-roepnummeroverzichten-brandweer/)).
-- **📍 Locatie notatie:** Het kunnen noteren van een incident straatnaam zodat dit gebruikt kan worden bij het alarmeren van Ambulance en/of Brandweer. *(Voorbeeld: =Rotterdam/Alta Street)*
-- **🚨 Wijzigen van prioriteit:** Het snel kunnen aanpassen van een incident prioriteit met `.prio 1/2/3`.
-- **🚓 Eenheden koppelen:** Het koppelen van eenheden via het kladblok is net iets veranderd. Dit gaat nu met: `.kop rt3101 rt2201 rt2210`.
+
+- **🖌️ Classificaties & Karakteristieken:** Bevat de classificaties en karakteristieken volgens het officiële LMS-bestand van [C2000.nl](https://www.c2000.nl/).
+
+- **💬 Chatbuffer:** Je kunt meerdere kladblokregels typen zonder dat deze direct naar anderen worden verzonden. Dubbelklik op een kladblokregel die nog niet is verzonden om deze aan te passen. Wil je alle openstaande regels in één keer verzenden? Typ dan `.mr` in de chat.
+
+- **📟 Geavanceerde pager:** Een uitgebreid menu om eenheden van Ambulance of Brandweer te alarmeren. Je kunt de pagertekst handmatig aanpassen, de classificatie wijzigen, props toevoegen en toegang krijgen tot meer eenheden, inclusief buurregio’s. (Bron: [Meldkamerspel](https://forum.meldkamerspel.com/index.php?board/36-roepnummeroverzichten-brandweer/))
+
+- **📍 Locatie-notatie:** Je kunt een incidentstraatnaam noteren zodat deze gebruikt kan worden bij het alarmeren van Ambulance en/of Brandweer. *(Voorbeeld: `=Rotterdam/Alta Street`)*
+
+- **🚨 Wijzigen van prioriteit:** Pas snel de prioriteit van een incident aan met `.prio 1/2/3`.
+
+- **🚓 Eenheden koppelen:** Het koppelen van eenheden via het kladblok is vernieuwd en werkt nu met: `.kop rt3101 rt2201 rt2210`.
 
 <br>
 
-#### Aan bepaalde karakteristieken zitten acties gekoppeld. Hieronder vind je een overzicht van deze functies per karakistiek:
+#### Acties gekoppeld aan karakteristieken
+
 | Karakteristiek | Actie/Omschrijving | Afkortingen |
 | --- | --- | --- |
-| Ops Br/HV/IBGS/LVO: Middel, Groot, Zeer Groot | Dit zijn brandweer gerelateerde opschalingen. Wanneer een van deze verstuurd wordt zal automatisch gevraagd worden om de melding-titel aan te passen zodat de opschaling in de titel te zien is. Bij opschaling groot of hoger en de aanwezigheid van een SvD zal deze via de MK-chat ingelicht worden. | brmd/hvmd/gsmd <br> brgr/hvgr/gsgr <br> brzg/hvzg/gszg |
-| Ops Ambu: Code 5/10/20/30/40/50 | Dit zijn GHOR (ambulance) gerelateerde opschalingen. Wanneer een van deze verstuurd wordt zal automatisch gevraagd worden om de melding-titel aan te passen zodat de opschaling in de titel te zien is. | code10/20/30/40/50 |
-| Inzet Ambu: MMT | Wanneer deze karakteristiek verstuurd wordt zal automatisch gevraagd worden om "(MMT") in de melding-titel toe te voegen. | iammt |
-| Inzet Pol landelijk: DSI RRT/QRF | Wanneer een van deze verstuurd wordt zal automatisch gevraagd worden om de melding-titel aan te passen zodat de opschaling in de titel te zien is. Dit wordt ook in de MK-chat gestuurd. | dsirrt, dsiqrf |
-| Procedure Pol: BTGP | Wanneer een van deze verstuurd wordt zal automatisch gevraagd worden om de melding-titel aan te passen zodat de BTGP in de titel te zien is. Dit wordt ook in de MK-chat gestuurd. | pbtgp, pbtgpe |
-| GRIP: 1 t/m 5 | Wanneer een van deze verstuurd wordt zal automatisch gevraagd worden om de melding-titel aan te passen zodat de opschaling in de titel te zien is. En bij de aanwezigheid van een SvD zal deze via de MK-chat ingelicht worden. | grip1, grip2, grip3, grip4, grip5 |
+| **Ops Br/HV/IBGS/LVO: Middel, Groot, Zeer Groot** | Brandweer-gerelateerde opschalingen. Bij versturen wordt automatisch gevraagd om de melding-titel aan te passen zodat de opschaling zichtbaar is. Bij opschaling Groot of hoger en aanwezigheid van een SvD wordt dit via de MK-chat gemeld. | brmd/hvmd/gsmd <br> brgr/hvgr/gsgr <br> brzg/hvzg/gszg |
+| **Ops Ambu: Code 5/10/20/30/40/50** | GHOR (ambulance)-gerelateerde opschalingen. Bij versturen wordt automatisch gevraagd de melding-titel aan te passen. | code10/20/30/40/50 |
+| **Inzet Ambu: MMT** | Bij versturen wordt automatisch gevraagd "(MMT)" aan de melding-titel toe te voegen. | iammt |
+| **Inzet Pol landelijk: DSI RRT/QRF** | Bij versturen wordt automatisch gevraagd de melding-titel aan te passen; wordt tevens in de MK-chat gemeld. | dsirrt, dsiqrf |
+| **Procedure Pol: BTGP** | Bij versturen wordt automatisch gevraagd de melding-titel aan te passen; BTGP wordt zichtbaar in de titel en in de MK-chat gemeld. | pbtgp, pbtgpe |
+| **GRIP: 1 t/m 5** | Bij versturen wordt automatisch gevraagd de melding-titel aan te passen; bij aanwezigheid van een SvD wordt dit via de MK-chat gemeld. | grip1, grip2, grip3, grip4, grip5 |
+
 
 ## 🚀 Installatie
 
