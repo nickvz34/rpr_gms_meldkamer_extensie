@@ -19,6 +19,8 @@
 // @resource     customCSS https://raw.githubusercontent.com/nickvz34/rpr_gms_meldkamer_extensie/main/assets/styling.css
 // @resource     windows98 https://unpkg.com/98.css
 // @resource     toastr_css https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css
+// @updateURL    https://github.com/nickvz34/rpr_gms_meldkamer_extensie/releases/latest/download/main_script.js
+// @downloadURL  https://github.com/nickvz34/rpr_gms_meldkamer_extensie/releases/latest/download/main_script.js
 // ==/UserScript==
 
 const $ = window.$;
