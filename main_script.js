@@ -16,7 +16,7 @@
 // @require      https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js
 // @require      https://cdn.socket.io/4.8.1/socket.io.min.js
 // @require      https://cdn.jsdelivr.net/npm/fuse.js@7.1.0
-// @resource     customCSS https://rpr.nickvz.nl/classificaties_karakteristieken_v2.4.3.css
+// @resource     customCSS https://raw.githubusercontent.com/nickvz34/rpr_gms_meldkamer_extensie/main/assets/styling.css
 // @resource     windows98 https://unpkg.com/98.css
 // @resource     toastr_css https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css
 // ==/UserScript==
@@ -778,7 +778,7 @@ $(document).ready(() => {
 
     GM_xmlhttpRequest({
         method: "GET",
-        url: "https://rpr.nickvz.nl/classificaties_v2.3.json",
+        url: "https://raw.githubusercontent.com/nickvz34/rpr_gms_meldkamer_extensie/main/data/classificaties_v2.3.json?t=" + Date.now(),
         onload: function (response) {
             try {
                 const data = JSON.parse(response.responseText);
@@ -794,7 +794,7 @@ $(document).ready(() => {
 
     GM_xmlhttpRequest({
         method: "GET",
-        url: "https://rpr.nickvz.nl/karakteristieken_v2.6.json",
+        url: "https://raw.githubusercontent.com/nickvz34/rpr_gms_meldkamer_extensie/main/data/karakteristieken_v2.6.json?t=" + Date.now(),
         onload: function (response) {
             try {
                 const data = JSON.parse(response.responseText);
@@ -810,7 +810,7 @@ $(document).ready(() => {
 
     GM_xmlhttpRequest({
         method: "GET",
-        url: "https://rpr.nickvz.nl/straatnamen.json",
+        url: "https://raw.githubusercontent.com/nickvz34/rpr_gms_meldkamer_extensie/main/data/straatnamen.json?t=" + Date.now(),
         onload: function (response) {
             try {
                 const data = JSON.parse(response.responseText);
@@ -826,7 +826,7 @@ $(document).ready(() => {
 
     GM_xmlhttpRequest({
         method: "GET",
-        url: "https://rpr.nickvz.nl/regio_eenheden.json",
+        url: "https://raw.githubusercontent.com/nickvz34/rpr_gms_meldkamer_extensie/main/data/regio_eenheden.json?t=" + Date.now(),
         onload: function (response) {
             try {
                 const data = JSON.parse(response.responseText);
