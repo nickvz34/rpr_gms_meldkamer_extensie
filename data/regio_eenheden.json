@@ -1,0 +1,4705 @@
+{
+    "09": {
+        "brandweer": [
+            {
+                "roepnummer": "09-0111",
+                "afkorting": "WO",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0131",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0132",
+                "afkorting": "TS",
+                "info": "TS4 op 02 - Post Amersfoort-Noord"
+            },
+            {
+                "roepnummer": "09-0134",
+                "afkorting": "TS Compact",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0144",
+                "afkorting": "TS CCFM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0152",
+                "afkorting": "AL",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0201",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0231",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0271",
+                "afkorting": "HV",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0301",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0331",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0341",
+                "afkorting": "TST-NB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0374",
+                "afkorting": "HVT",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0401",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0411",
+                "afkorting": "WO",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0412",
+                "afkorting": "BRV",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0431",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0432",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0468",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0501",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0531",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0571",
+                "afkorting": "HV",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0601",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0631",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0667",
+                "afkorting": "RBA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0668",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0680",
+                "afkorting": "PM-RB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0701",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0731",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0734",
+                "afkorting": "TS Compact",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0744",
+                "afkorting": "TS CCFM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0762",
+                "afkorting": "SLH",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0774",
+                "afkorting": "HVT",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0781",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0801",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0831",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-0931",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1001",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1034",
+                "afkorting": "TS Compact",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1044",
+                "afkorting": "TS CCFM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1068",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1131",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1201",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1231",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1280",
+                "afkorting": "PM",
+                "info": "In TS-vorm"
+            },
+            {
+                "roepnummer": "09-1301",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1311",
+                "afkorting": "WO",
+                "info": null
+            },
+            {
+                "roepnummer": "09-133",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1331",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1332",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1351",
+                "afkorting": "HW",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1412",
+                "afkorting": "BRV",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1431",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1468",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1469",
+                "afkorting": "PM-OR",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1501",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1531",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1568",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1571",
+                "afkorting": "HV",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1601",
+                "afkorting": null,
+                "info": "09-1621 VEB"
+            },
+            {
+                "roepnummer": "09-1631",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1632",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1668",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1731",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1801",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1812",
+                "afkorting": "BRV",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1831",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1832",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1868",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-1901",
+                "afkorting": null,
+                "info": "09-1921 VEB"
+            },
+            {
+                "roepnummer": "09-1931",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2001",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2031",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2032",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2052",
+                "afkorting": "AL",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2068",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2101",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2131",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2168",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2178",
+                "afkorting": "VT",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2201",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2231",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2241",
+                "afkorting": "TST-NB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2261",
+                "afkorting": "DPH",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2265",
+                "afkorting": "WTH",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2286",
+                "afkorting": "HAT",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2331",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2368",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2378",
+                "afkorting": "VT",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2380",
+                "afkorting": "PM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2431",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2432",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2480",
+                "afkorting": "PM",
+                "info": "In TS vorm"
+            },
+            {
+                "roepnummer": "09-2501",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2531",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2571",
+                "afkorting": "HV",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2601",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2631",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2661",
+                "afkorting": "DPH",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2668",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2681",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2701",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2712",
+                "afkorting": "BRV",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2731",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2732",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2771",
+                "afkorting": "HV",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2801",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2831",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2869",
+                "afkorting": "COBRA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2901",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2931",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-2932",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3034",
+                "afkorting": "TS Compact",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3041",
+                "afkorting": "TST-NB",
+                "info": "Binnenkort naar 55 - Post Veenendaal als 09-5541"
+            },
+            {
+                "roepnummer": "09-3068",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3080",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3101",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3134",
+                "afkorting": "TS Compact",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3144",
+                "afkorting": "TS CCFM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3201",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3231",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3241",
+                "afkorting": "TST-NB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3268",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3301",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3334",
+                "afkorting": "TS Compact",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3341",
+                "afkorting": "TST-NB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3351",
+                "afkorting": "HW",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3364",
+                "afkorting": "BPH",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3366",
+                "afkorting": "WBH",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3386",
+                "afkorting": "HAT",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3387",
+                "afkorting": "BSH",
+                "info": "Brandstof"
+            },
+            {
+                "roepnummer": "09-3431",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3441",
+                "afkorting": "TST-NB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3501",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3541",
+                "afkorting": "TST-NB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3601",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3612",
+                "afkorting": "BRV",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3631",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3632",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3671",
+                "afkorting": "HV",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3701",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3731",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3767",
+                "afkorting": "PM-RB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3801",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3831",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3901",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3911",
+                "afkorting": "WO",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3931",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3932",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-3952",
+                "afkorting": "AL",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4031",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4131",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4161",
+                "afkorting": "DPH",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4181",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4201",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4231",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4268",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4301",
+                "afkorting": null,
+                "info": "09-4321 VEB"
+            },
+            {
+                "roepnummer": "09-4331",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4401",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4411",
+                "afkorting": "WO",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4431",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4452",
+                "afkorting": "AL",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4480",
+                "afkorting": "PM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4481",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4482",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4501",
+                "afkorting": "DA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4522",
+                "afkorting": "BMH-OGS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4531",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4581",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4601",
+                "afkorting": "DA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4631",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4701",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4731",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4801",
+                "afkorting": "DA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4831",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4852",
+                "afkorting": "AL",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4863",
+                "afkorting": "SB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4901",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-4931",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5001",
+                "afkorting": "DA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5001",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5034",
+                "afkorting": "TS Compact",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5044",
+                "afkorting": "TS CCFM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5068",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5071",
+                "afkorting": "HV",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5131",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5134",
+                "afkorting": "TS Compact",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5144",
+                "afkorting": "TS CCFM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5169",
+                "afkorting": "TW",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5201",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5234",
+                "afkorting": "TS Compact",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5244",
+                "afkorting": "TS CCFM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5252",
+                "afkorting": "AL",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5301",
+                "afkorting": null,
+                "info": "09-5321 VEB"
+            },
+            {
+                "roepnummer": "09-5334",
+                "afkorting": "TS Compact",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5344",
+                "afkorting": "TS CCFM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5368",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5401",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5431",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5434",
+                "afkorting": "TS Compact",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5444",
+                "afkorting": "TS CCFM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5474",
+                "afkorting": "HVT",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5501",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5522",
+                "afkorting": "BMH-OGS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5531",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5532",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5541",
+                "afkorting": "TST-NB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5551",
+                "afkorting": "HW",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5561",
+                "afkorting": "DPH",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5571",
+                "afkorting": "HV",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5581",
+                "afkorting": "HA-KR",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5582",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5631",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5668",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5680",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5701",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5712",
+                "afkorting": "BRV",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5731",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5751",
+                "afkorting": "HW",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5831",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5832",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5867",
+                "afkorting": "RBA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5868",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5880",
+                "afkorting": "PM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5901",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5911",
+                "afkorting": "WO",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5912",
+                "afkorting": "BRV",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5931",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-5944",
+                "afkorting": "TS CCFM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6001",
+                "afkorting": "PM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6031",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6068",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6131",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6167",
+                "afkorting": "RBA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6180",
+                "afkorting": "PM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6201",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6211",
+                "afkorting": "WO",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6231",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6232",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6252",
+                "afkorting": "AL",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6331",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6380",
+                "afkorting": "PM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6401",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6431",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6434",
+                "afkorting": "TS",
+                "info": "TS Compact"
+            },
+            {
+                "roepnummer": "09-6444",
+                "afkorting": "TST-NB",
+                "info": "TS CCFM"
+            },
+            {
+                "roepnummer": "09-6464",
+                "afkorting": "BPH",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6466",
+                "afkorting": "WBH",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6486",
+                "afkorting": "HAT",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6501",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6531",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6601",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6631",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6634",
+                "afkorting": "TS Compact",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6644",
+                "afkorting": "TS CCFM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6652",
+                "afkorting": "AL",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6662",
+                "afkorting": "SLH",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6680",
+                "afkorting": "PM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6701",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6731",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6801",
+                "afkorting": "PM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6802",
+                "afkorting": "DA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6831",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6851",
+                "afkorting": "HW",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6901",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-6931",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-7001",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-7031",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-7071",
+                "afkorting": "HV",
+                "info": null
+            },
+            {
+                "roepnummer": "09-7101",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-7131",
+                "afkorting": "TS Basis",
+                "info": null
+            },
+            {
+                "roepnummer": "09-7169",
+                "afkorting": "TW",
+                "info": null
+            },
+            {
+                "roepnummer": "09-8052",
+                "afkorting": "AL",
+                "info": "Tijdelijk tot nieuwe AL in dienst is"
+            },
+            {
+                "roepnummer": "09-8091",
+                "afkorting": "Reserve",
+                "info": "Meerdere rollen, waaronder OVD"
+            },
+            {
+                "roepnummer": "09-8094",
+                "afkorting": "Reserve",
+                "info": "Meerdere rollen, waaronder OVD"
+            },
+            {
+                "roepnummer": "09-8101",
+                "afkorting": "t/m 09-8105 DA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-8181",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-8191",
+                "afkorting": "Rijn en Venen Noord",
+                "info": null
+            },
+            {
+                "roepnummer": "09-8201",
+                "afkorting": "PMLOG",
+                "info": null
+            },
+            {
+                "roepnummer": "09-8202",
+                "afkorting": "GMLOG-AB",
+                "info": "Ademluchtwerkplaats Maarssen"
+            },
+            {
+                "roepnummer": "09-8252",
+                "afkorting": "AL",
+                "info": "Tijdelijk, tot AL 6652 in dienst komt"
+            },
+            {
+                "roepnummer": "09-8281",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-8282",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "09-8291",
+                "afkorting": "Rijn en Venen Zuid",
+                "info": null
+            },
+            {
+                "roepnummer": "09-8301",
+                "afkorting": "VWLOG",
+                "info": null
+            },
+            {
+                "roepnummer": "09-8302",
+                "afkorting": "VWLOG",
+                "info": null
+            },
+            {
+                "roepnummer": "09-8303",
+                "afkorting": "VWLOG",
+                "info": null
+            },
+            {
+                "roepnummer": "09-8305",
+                "afkorting": "VWLOG",
+                "info": null
+            },
+            {
+                "roepnummer": "09-8307",
+                "afkorting": "VWLOG",
+                "info": null
+            },
+            {
+                "roepnummer": "09-8391",
+                "afkorting": "Lekstroom",
+                "info": null
+            },
+            {
+                "roepnummer": "09-8494",
+                "afkorting": "Binnensticht",
+                "info": null
+            },
+            {
+                "roepnummer": "09-8501",
+                "afkorting": "PMLOG-AB",
+                "info": "Ademluchtwerkplaats Maarssen"
+            },
+            {
+                "roepnummer": "09-8591",
+                "afkorting": "Utrecht Stad",
+                "info": null
+            },
+            {
+                "roepnummer": "09-8694",
+                "afkorting": "Eemland-Zuid",
+                "info": null
+            },
+            {
+                "roepnummer": "09-8794",
+                "afkorting": "Eemland-Noord",
+                "info": null
+            },
+            {
+                "roepnummer": "09-8894",
+                "afkorting": "Heuvelrug-Oost",
+                "info": null
+            },
+            {
+                "roepnummer": "09-8994",
+                "afkorting": "Heuvelrug-West",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9005",
+                "afkorting": "DA-centralist",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9063",
+                "afkorting": "SB",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9069",
+                "afkorting": "SVH",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9075",
+                "afkorting": "LIH",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9080",
+                "afkorting": "GM-TD",
+                "info": "nieuw, t.b.v. nieuwe tankautospuiten"
+            },
+            {
+                "roepnummer": "09-9083",
+                "afkorting": "WCH",
+                "info": "33 - Post Soest-Hoofdpost"
+            },
+            {
+                "roepnummer": "09-9084",
+                "afkorting": "VZH",
+                "info": "44 - Post Utrecht-Leidsche Rijn"
+            },
+            {
+                "roepnummer": "09-9085",
+                "afkorting": "VW",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9087",
+                "afkorting": "AHH",
+                "info": "Arbeidshygiëne"
+            },
+            {
+                "roepnummer": "09-9088",
+                "afkorting": "PM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9089",
+                "afkorting": "DA-PCLOG",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9091",
+                "afkorting": "DA-CD",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9093",
+                "afkorting": "PM-LCU",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9095",
+                "afkorting": "DA-VL",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9129",
+                "afkorting": "DA-AGS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9183",
+                "afkorting": "PM-VZ",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9187",
+                "afkorting": "ABH",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9191",
+                "afkorting": "DA-HOD",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9192",
+                "afkorting": "DA-IM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9197",
+                "afkorting": "CO",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9229",
+                "afkorting": "DA-AGS",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9272",
+                "afkorting": "BMLOGH",
+                "info": "Verreiker"
+            },
+            {
+                "roepnummer": "09-9283",
+                "afkorting": "PM-VZ",
+                "info": "Klein"
+            },
+            {
+                "roepnummer": "09-9291",
+                "afkorting": "DA-HOD",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9292",
+                "afkorting": "DA-IM",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9297",
+                "afkorting": "CO",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9471",
+                "afkorting": "PM-QRT",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9472",
+                "afkorting": "PM-QRT",
+                "info": null
+            },
+            {
+                "roepnummer": "09-9473",
+                "afkorting": "PM-QRT",
+                "info": null
+            }
+        ],
+        "ambulance": [
+            {
+                "roepnummer": "09-101",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-102",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-104",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-107",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-108",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-109",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-111",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-114",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-115",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-116",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-117",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-118",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-119",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-120",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-121",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-122",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-124",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-125",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-126",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-127",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-128",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-129",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-130",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-131",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-133",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-134",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-135",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-136",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-137",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-138",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-140",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-141",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-142",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-143",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-144",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-145",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-146",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-147",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-148",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-301",
+                "afkorting": "MICU",
+                "info": null
+            },
+            {
+                "roepnummer": "09-302",
+                "afkorting": "MICU",
+                "info": null
+            },
+            {
+                "roepnummer": "09-310",
+                "afkorting": "Babylance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-331",
+                "afkorting": "Ambulance Motor",
+                "info": null
+            },
+            {
+                "roepnummer": "09-332",
+                "afkorting": "Ambulance Motor",
+                "info": null
+            },
+            {
+                "roepnummer": "09-333",
+                "afkorting": "Ambulance Motor",
+                "info": null
+            },
+            {
+                "roepnummer": "09-334",
+                "afkorting": "Ambulance Motor",
+                "info": null
+            },
+            {
+                "roepnummer": "09-335",
+                "afkorting": "Ambulance Motor",
+                "info": null
+            },
+            {
+                "roepnummer": "09-336",
+                "afkorting": "Ambulance Motor",
+                "info": null
+            },
+            {
+                "roepnummer": "09-337",
+                "afkorting": "Ambulance Motor",
+                "info": null
+            },
+            {
+                "roepnummer": "09-340",
+                "afkorting": "Sololance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-341",
+                "afkorting": "Sololance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-342",
+                "afkorting": "Sololance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-343",
+                "afkorting": "Sololance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-344",
+                "afkorting": "Sololance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-345",
+                "afkorting": "Sololance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-346",
+                "afkorting": "Sololance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-347",
+                "afkorting": "Sololance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-347",
+                "afkorting": "Rapid Responder",
+                "info": null
+            },
+            {
+                "roepnummer": "09-348",
+                "afkorting": "Rapid Responder",
+                "info": null
+            },
+            {
+                "roepnummer": "09-356",
+                "afkorting": "Biker Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-357",
+                "afkorting": "Biker Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-380",
+                "afkorting": "Rapid Responder/OvD-G",
+                "info": null
+            },
+            {
+                "roepnummer": "09-381",
+                "afkorting": "Rapid Responder/OvD-G",
+                "info": null
+            },
+            {
+                "roepnummer": "09-401",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-402",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-403",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-404",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-405",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-406",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-407",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-408",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-440",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-441",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-442",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-443",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-444",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-480",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-481",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-483",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-485",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-486",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-487",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-488",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-489",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "09-901",
+                "afkorting": "MMT-G",
+                "info": null
+            }
+        ]
+    },
+    "13": {
+        "brandweer": [],
+        "ambulance": [
+            {
+                "roepnummer": "13-101",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-102",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-103",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-104",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-105",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-106",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-107",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-108",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-109",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-110",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-111",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-112",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-114",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-115",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-116",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-117",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-118",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-119",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-120",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-121",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-122",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-124",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-151",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-154",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-158",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-159",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-160",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-161",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-162",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-163",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-175",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-176",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-177",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-178",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-179",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-180",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-301",
+                "afkorting": "MICU",
+                "info": null
+            },
+            {
+                "roepnummer": "13-302",
+                "afkorting": "MICU",
+                "info": null
+            },
+            {
+                "roepnummer": "13-340",
+                "afkorting": "SORT",
+                "info": "Special Operations Response Team"
+            },
+            {
+                "roepnummer": "13-341",
+                "afkorting": "Rapid Responder",
+                "info": null
+            },
+            {
+                "roepnummer": "13-342",
+                "afkorting": "Rapid Responder",
+                "info": null
+            },
+            {
+                "roepnummer": "13-343",
+                "afkorting": "Rapid Responder",
+                "info": null
+            },
+            {
+                "roepnummer": "13-344",
+                "afkorting": "Rapid Responder",
+                "info": null
+            },
+            {
+                "roepnummer": "13-401",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-402",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-403",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-404",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-405",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-406",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-407",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-408",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-409",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-410",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-411",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-412",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-413",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-414",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-415",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "13-811",
+                "afkorting": "OvD-G",
+                "info": null
+            },
+            {
+                "roepnummer": "13-812",
+                "afkorting": "OvD-G",
+                "info": null
+            },
+            {
+                "roepnummer": "13-813",
+                "afkorting": "OvD-G",
+                "info": null
+            },
+            {
+                "roepnummer": "13-814",
+                "afkorting": "OvD-G",
+                "info": null
+            },
+            {
+                "roepnummer": "13-901",
+                "afkorting": "LFL1",
+                "info": "Auto"
+            },
+            {
+                "roepnummer": "13-991",
+                "afkorting": "LFL1",
+                "info": "Heli"
+            }
+        ]
+    },
+    "15": {
+        "brandweer": [
+            {
+                "roepnummer": "15-5026",
+                "afkorting": "DB-VK",
+                "info": null
+            },
+            {
+                "roepnummer": "15-5030",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-5040",
+                "afkorting": "TST",
+                "info": null
+            },
+            {
+                "roepnummer": "15-5060",
+                "afkorting": "DPH",
+                "info": null
+            },
+            {
+                "roepnummer": "15-5066",
+                "afkorting": "RIA",
+                "info": null
+            },
+            {
+                "roepnummer": "15-5068",
+                "afkorting": "WTH",
+                "info": null
+            },
+            {
+                "roepnummer": "15-5080",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "15-5112",
+                "afkorting": "WOA",
+                "info": null
+            },
+            {
+                "roepnummer": "15-5130",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-5150",
+                "afkorting": "HW",
+                "info": null
+            },
+            {
+                "roepnummer": "15-5170",
+                "afkorting": "HV",
+                "info": null
+            },
+            {
+                "roepnummer": "15-5230",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-5250",
+                "afkorting": "HW",
+                "info": null
+            },
+            {
+                "roepnummer": "15-5267",
+                "afkorting": "SLH",
+                "info": "Reserve"
+            },
+            {
+                "roepnummer": "15-5330",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-5370",
+                "afkorting": "HV",
+                "info": null
+            },
+            {
+                "roepnummer": "15-5430",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-5510",
+                "afkorting": "WO",
+                "info": null
+            },
+            {
+                "roepnummer": "15-5512",
+                "afkorting": "WOA",
+                "info": "Reserve"
+            },
+            {
+                "roepnummer": "15-5530",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-5550",
+                "afkorting": "HW",
+                "info": null
+            },
+            {
+                "roepnummer": "15-5630",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-5666",
+                "afkorting": "BMH",
+                "info": "Specialistiche Blusmiddelen"
+            },
+            {
+                "roepnummer": "15-5680",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "15-5684",
+                "afkorting": "DB",
+                "info": "Drone Team"
+            },
+            {
+                "roepnummer": "15-6030",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6130",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6230",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6231",
+                "afkorting": "TS-SK",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6266",
+                "afkorting": "RIA",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6326",
+                "afkorting": "DB-VK",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6330",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6430",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6450",
+                "afkorting": "HW",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6526",
+                "afkorting": "DB-VK",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6527",
+                "afkorting": "GOE-BU",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6530",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6531",
+                "afkorting": "TS-SK",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6580",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6599",
+                "afkorting": "COH-Mono",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6630",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6680",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6684",
+                "afkorting": "VZH",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6699",
+                "afkorting": "COH-Multi",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6725",
+                "afkorting": "DB-CBRN",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6727",
+                "afkorting": "GOE-DU",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6730",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6740",
+                "afkorting": "TST",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6760",
+                "afkorting": "DPH",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6780",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6826",
+                "afkorting": "DB-VK",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6830",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6831",
+                "afkorting": "TS-SK",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6882",
+                "afkorting": "GM",
+                "info": "o.a. Adembescherming"
+            },
+            {
+                "roepnummer": "15-6912",
+                "afkorting": "WOA",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6930",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6960",
+                "afkorting": "DPH",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6967",
+                "afkorting": "SLH",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6970",
+                "afkorting": "HV",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6971",
+                "afkorting": "HVH-RTV",
+                "info": null
+            },
+            {
+                "roepnummer": "15-6980",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "15-7109",
+                "afkorting": "SRT",
+                "info": null
+            },
+            {
+                "roepnummer": "15-7130",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-7140",
+                "afkorting": "TST",
+                "info": null
+            },
+            {
+                "roepnummer": "15-7150",
+                "afkorting": "HW",
+                "info": null
+            },
+            {
+                "roepnummer": "15-7230",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-7430",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-7468",
+                "afkorting": "WTH",
+                "info": null
+            },
+            {
+                "roepnummer": "15-7480",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "15-7487",
+                "afkorting": "BMH",
+                "info": null
+            },
+            {
+                "roepnummer": "15-7620",
+                "afkorting": "GS / QRT",
+                "info": null
+            },
+            {
+                "roepnummer": "15-7630",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-7650",
+                "afkorting": "HW",
+                "info": null
+            },
+            {
+                "roepnummer": "15-7700",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "15-7730",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-7750",
+                "afkorting": "HW",
+                "info": null
+            },
+            {
+                "roepnummer": "15-7770",
+                "afkorting": "HV",
+                "info": null
+            },
+            {
+                "roepnummer": "15-7782",
+                "afkorting": "GM",
+                "info": "o.a. Adembescherming"
+            },
+            {
+                "roepnummer": "15-7810",
+                "afkorting": "WO",
+                "info": null
+            },
+            {
+                "roepnummer": "15-7830",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-7850",
+                "afkorting": "HW",
+                "info": null
+            },
+            {
+                "roepnummer": "15-8035",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-8065",
+                "afkorting": "TS-4",
+                "info": "Gebruikt als SIV"
+            },
+            {
+                "roepnummer": "15-9020",
+                "afkorting": "DB-AGS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9500",
+                "afkorting": "TBO",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9583",
+                "afkorting": "MvD",
+                "info": "Den Haag Loosduinen"
+            },
+            {
+                "roepnummer": "15-9586",
+                "afkorting": "BSA",
+                "info": "Den Haag Loosduinen"
+            },
+            {
+                "roepnummer": "15-9590",
+                "afkorting": "CvD",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9591",
+                "afkorting": "OvD",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9592",
+                "afkorting": "Reserve-OvD 1",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9593",
+                "afkorting": "Reserve-OvD 2",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9594",
+                "afkorting": "HOvD",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9595",
+                "afkorting": "HOvD",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9596",
+                "afkorting": "HON",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9599",
+                "afkorting": "VL",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9610",
+                "afkorting": "WO",
+                "info": "Den Haag Centrum"
+            },
+            {
+                "roepnummer": "15-9630",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9631",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9632",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9633",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9634",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9635",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9636",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9637",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9638",
+                "afkorting": "TS",
+                "info": "Opleidingen"
+            },
+            {
+                "roepnummer": "15-9639",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9650",
+                "afkorting": "HW",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9660",
+                "afkorting": "BMM",
+                "info": "Den Haag Laak"
+            },
+            {
+                "roepnummer": "15-9661",
+                "afkorting": "BMM",
+                "info": "Den Haag Laak"
+            },
+            {
+                "roepnummer": "15-9662",
+                "afkorting": "BMM",
+                "info": "Reserve"
+            },
+            {
+                "roepnummer": "15-9670",
+                "afkorting": "HV",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9680",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9682",
+                "afkorting": "GM",
+                "info": "o.a. Adembescherming"
+            },
+            {
+                "roepnummer": "15-9691",
+                "afkorting": "Reserve-OvD 3",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9692",
+                "afkorting": "Reserve-OvD 4",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9890",
+                "afkorting": "HIN",
+                "info": null
+            },
+            {
+                "roepnummer": "15-9891",
+                "afkorting": "GEO Informatiemanager CoPI",
+                "info": null
+            }
+        ],
+        "ambulance": [
+            {
+                "roepnummer": "15-101",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-102",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-103",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-104",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-105",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-106",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-107",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-108",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-109",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-110",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-111",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-112",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-113",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-114",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-115",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-116",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-117",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-118",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-119",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-120",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-121",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-122",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-123",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-124",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-125",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-126",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-127",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-128",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-129",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-130",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-131",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-132",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-141",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-142",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-143",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-145",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-146",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-147",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-148",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-251",
+                "afkorting": "Piket",
+                "info": null
+            },
+            {
+                "roepnummer": "15-252",
+                "afkorting": "Piket",
+                "info": null
+            },
+            {
+                "roepnummer": "15-291",
+                "afkorting": "Piket",
+                "info": null
+            },
+            {
+                "roepnummer": "15-292",
+                "afkorting": "Piket",
+                "info": null
+            },
+            {
+                "roepnummer": "15-293",
+                "afkorting": "Piket",
+                "info": null
+            },
+            {
+                "roepnummer": "15-294",
+                "afkorting": "Piket",
+                "info": null
+            },
+            {
+                "roepnummer": "15-381",
+                "afkorting": "Motorambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-382",
+                "afkorting": "Motorambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-385",
+                "afkorting": "Motorambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-387",
+                "afkorting": "Rapid Responder",
+                "info": null
+            },
+            {
+                "roepnummer": "15-388",
+                "afkorting": "Rapid Responder",
+                "info": null
+            },
+            {
+                "roepnummer": "15-389",
+                "afkorting": "Rapid Responder",
+                "info": null
+            },
+            {
+                "roepnummer": "15-401",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-402",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-411",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-421",
+                "afkorting": "B-Ambulance",
+                "info": "Zoetermeer"
+            },
+            {
+                "roepnummer": "15-422",
+                "afkorting": "B-Ambulance",
+                "info": "Zoetermeer"
+            },
+            {
+                "roepnummer": "15-423",
+                "afkorting": "B-Ambulance",
+                "info": "Zoetermeer"
+            },
+            {
+                "roepnummer": "15-430",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-431",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-432",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-433",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-434",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-435",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-436",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-438",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-501",
+                "afkorting": "Dienstauto CPA",
+                "info": null
+            },
+            {
+                "roepnummer": "15-570",
+                "afkorting": "Facilitaire Dienst",
+                "info": null
+            },
+            {
+                "roepnummer": "15-590",
+                "afkorting": "Grootschalige Geneeskundige Bijstand",
+                "info": "Post Waldorpstraat"
+            },
+            {
+                "roepnummer": "15-593",
+                "afkorting": "Logistiek",
+                "info": "Zoetermeer"
+            },
+            {
+                "roepnummer": "15-594",
+                "afkorting": "Logistiek",
+                "info": "Zoetermeer"
+            },
+            {
+                "roepnummer": "15-601",
+                "afkorting": "B-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "15-711",
+                "afkorting": "Huisarts",
+                "info": "Huisartsendienst SMASH Den Haag"
+            },
+            {
+                "roepnummer": "15-712",
+                "afkorting": "Huisarts",
+                "info": "Huisartsendienst SMASH Den Haag"
+            },
+            {
+                "roepnummer": "15-713",
+                "afkorting": "Huisarts",
+                "info": "Huisartsendienst SMASH Den Haag"
+            },
+            {
+                "roepnummer": "15-719",
+                "afkorting": "Huisarts",
+                "info": "Huisartsendienst SMASH Den Haag"
+            },
+            {
+                "roepnummer": "15-721",
+                "afkorting": "Huisarts",
+                "info": "Huisartsendienst Naaldwijk"
+            },
+            {
+                "roepnummer": "15-731",
+                "afkorting": "Huisarts",
+                "info": "Reinier de Graaf Ziekenhuis Delft"
+            },
+            {
+                "roepnummer": "15-801",
+                "afkorting": "Officier van Dienst - Geneeskundig",
+                "info": null
+            },
+            {
+                "roepnummer": "15-802",
+                "afkorting": "Officier van Dienst - Geneeskundig",
+                "info": null
+            },
+            {
+                "roepnummer": "15-803",
+                "afkorting": "Hoofd Actiecentrum",
+                "info": null
+            },
+            {
+                "roepnummer": "15-804",
+                "afkorting": "Coördinatie",
+                "info": "Rijopleiding"
+            },
+            {
+                "roepnummer": "15-830",
+                "afkorting": "Noodhulpteam",
+                "info": "Brandweerkazerne Rijswijk"
+            },
+            {
+                "roepnummer": "15-840",
+                "afkorting": "Algemeen Commandant Geneeskundige Zorg",
+                "info": null
+            },
+            {
+                "roepnummer": "15-850",
+                "afkorting": "Directeur Publieke Gezondheid",
+                "info": null
+            },
+            {
+                "roepnummer": "15-899",
+                "afkorting": "Verbindings- en Commandovoertuig",
+                "info": "Brandweerkazerne Rijswijk"
+            }
+        ]
+    },
+    "16": {
+        "brandweer": [
+            {
+                "roepnummer": "16-1000",
+                "afkorting": "DB-FR",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1031",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1100",
+                "afkorting": "DB-FR",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1130",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1152",
+                "afkorting": "AL",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1200",
+                "afkorting": "DB-FR",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1230",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1300",
+                "afkorting": "DB-FR",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1312",
+                "afkorting": "BRV",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1330",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1400",
+                "afkorting": "DB-FR",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1430",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1500",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1530",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1560",
+                "afkorting": "WTS-500",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1600",
+                "afkorting": "DB",
+                "info": "incl. VEB 16-1626"
+            },
+            {
+                "roepnummer": "16-1630",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1700",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1709",
+                "afkorting": "DAT",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1730",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1731",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1752",
+                "afkorting": "AL",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1800",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1809",
+                "afkorting": "DAT",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1830",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1831",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1852",
+                "afkorting": "AL",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1863",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1900",
+                "afkorting": "DB-FR",
+                "info": null
+            },
+            {
+                "roepnummer": "16-1930",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2000",
+                "afkorting": "DB-FR",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2001",
+                "afkorting": "DB-FR",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2002",
+                "afkorting": "DB-HSL-FR",
+                "info": "incl. VEB 16-2026"
+            },
+            {
+                "roepnummer": "16-2004",
+                "afkorting": "DB-FR",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2005",
+                "afkorting": "DB-FR",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2012",
+                "afkorting": "BRV",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2013",
+                "afkorting": "BRV",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2014",
+                "afkorting": "BRV",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2015",
+                "afkorting": "BRV",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2016",
+                "afkorting": "BRV",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2030",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2031",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2032",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2033",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2034",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2063",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2064",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2071",
+                "afkorting": "HV",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2101",
+                "afkorting": "DB-FR",
+                "info": "incl. VEB 16-2126"
+            },
+            {
+                "roepnummer": "16-2102",
+                "afkorting": "DB-FR",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2110",
+                "afkorting": "WO",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2112",
+                "afkorting": "BRV",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2113",
+                "afkorting": "BRV",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2130",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2131",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2132",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2163",
+                "afkorting": "PM-DS-FR",
+                "info": "One-Seven Drukluchtschuim"
+            },
+            {
+                "roepnummer": "16-2164",
+                "afkorting": "PM-DS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2200",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2201",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2203",
+                "afkorting": "DB-FR",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2204",
+                "afkorting": "DB-FR",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2206",
+                "afkorting": "DB-FR",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2207",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2208",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2210",
+                "afkorting": "WO",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2212",
+                "afkorting": "BRV",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2230",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2231",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2232",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2233",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2234",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2236",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2237",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2238",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2252",
+                "afkorting": "AL",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2260",
+                "afkorting": "WTS-500",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2263",
+                "afkorting": "PBA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2264",
+                "afkorting": "SBA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2265",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2271",
+                "afkorting": "HV",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2280",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2282",
+                "afkorting": "AB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-2283",
+                "afkorting": "DB-HSL-FR",
+                "info": "incl. VEB 16-2226"
+            },
+            {
+                "roepnummer": "16-3000",
+                "afkorting": "DB-FR",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3002",
+                "afkorting": "DB-FR",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3003",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3012",
+                "afkorting": "BRV",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3030",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3031",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3032",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3033",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3085",
+                "afkorting": "PM-FR",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3086",
+                "afkorting": "PM",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3100",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3101",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3102",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3103",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3110",
+                "afkorting": "WO",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3112",
+                "afkorting": "BRV",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3121",
+                "afkorting": "GSH",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3130",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3131",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3152",
+                "afkorting": "AL",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3163",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3172",
+                "afkorting": "HVH",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3180",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3181",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3182",
+                "afkorting": "HAK voor HVH",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3200",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3201",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3230",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3231",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3261",
+                "afkorting": "WTS-500",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3263",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3300",
+                "afkorting": "DB-FR",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3310",
+                "afkorting": "WO",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3312",
+                "afkorting": "BRV",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3330",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3363",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3400",
+                "afkorting": "DB-FR",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3430",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3452",
+                "afkorting": "AL",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3500",
+                "afkorting": "DB-FR",
+                "info": "incl. VEB 16-3526"
+            },
+            {
+                "roepnummer": "16-3501",
+                "afkorting": "DB-FR",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3530",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3531",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3564",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3600",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3601",
+                "afkorting": "DB-FR",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3630",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3631",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3700",
+                "afkorting": "DB",
+                "info": "incl. VEB 16-3726"
+            },
+            {
+                "roepnummer": "16-3701",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3702",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3712",
+                "afkorting": "BRV",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3730",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3731",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3732",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3763",
+                "afkorting": "MSA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3764",
+                "afkorting": "PDA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3765",
+                "afkorting": "SBA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3800",
+                "afkorting": "DB-VZ",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3830",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-3880",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4000",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4030",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4100",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4110",
+                "afkorting": "WO",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4130",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4152",
+                "afkorting": "AL",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4165",
+                "afkorting": "SBA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4180",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4200",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4209",
+                "afkorting": "PM",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4221",
+                "afkorting": "GSH",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4230",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4231",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4252",
+                "afkorting": "AL",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4264",
+                "afkorting": "PBA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4272",
+                "afkorting": "HVH",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4280",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4300",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4330",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4382",
+                "afkorting": "AB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4382",
+                "afkorting": "AB Verhuist naar Leiden Noord",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4400",
+                "afkorting": "DB",
+                "info": null
+            },
+            {
+                "roepnummer": "16-4430",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9060",
+                "afkorting": "DPA",
+                "info": "Alphen aan den Rijn"
+            },
+            {
+                "roepnummer": "16-9090",
+                "afkorting": "MPL",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9100",
+                "afkorting": "TBO",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9191",
+                "afkorting": "OvD Duin- & Bollenstreek",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9192",
+                "afkorting": "OvD Leiden e.o.",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9193",
+                "afkorting": "OvD Rijnstreek",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9194",
+                "afkorting": "OvD Gouda e.o.",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9195",
+                "afkorting": "OvD Krimpenerwaard",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9197",
+                "afkorting": "HOvD West",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9198",
+                "afkorting": "HOvD Oost",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9199",
+                "afkorting": "VL",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9210",
+                "afkorting": "WO",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9230",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9231",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9232",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9233",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9235",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9236",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9237",
+                "afkorting": "TS",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9260",
+                "afkorting": "DPH",
+                "info": "Sassenheim"
+            },
+            {
+                "roepnummer": "16-9261",
+                "afkorting": "DPH",
+                "info": "Alphen aan den Rijn"
+            },
+            {
+                "roepnummer": "16-9262",
+                "afkorting": "DPH",
+                "info": "Gouda"
+            },
+            {
+                "roepnummer": "16-9264",
+                "afkorting": "COBRA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9264",
+                "afkorting": "DB Cobra Coldcutter",
+                "info": "Ouderkerk aan den IJssel"
+            },
+            {
+                "roepnummer": "16-9267",
+                "afkorting": "SLH",
+                "info": "Gouda"
+            },
+            {
+                "roepnummer": "16-9268",
+                "afkorting": "SLH",
+                "info": "Leiden Noord"
+            },
+            {
+                "roepnummer": "16-9278",
+                "afkorting": "HVH-RTV",
+                "info": "Alphen aan den Rijn"
+            },
+            {
+                "roepnummer": "16-9280",
+                "afkorting": "HA",
+                "info": "Alphen aan den Rijn"
+            },
+            {
+                "roepnummer": "16-9281",
+                "afkorting": "HA",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9282",
+                "afkorting": "AH",
+                "info": "Arbeidshygiëne"
+            },
+            {
+                "roepnummer": "16-9282",
+                "afkorting": "BOE",
+                "info": "Koudekerk aan den Rijn"
+            },
+            {
+                "roepnummer": "16-9284",
+                "afkorting": "VZH",
+                "info": "Waddinxveen"
+            },
+            {
+                "roepnummer": "16-9286",
+                "afkorting": "BSA",
+                "info": "Brandstof Aanhanger"
+            },
+            {
+                "roepnummer": "16-9286",
+                "afkorting": "BTA",
+                "info": "Woubrugge"
+            },
+            {
+                "roepnummer": "16-9291",
+                "afkorting": "OvD Reserve",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9490",
+                "afkorting": "IMC West",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9491",
+                "afkorting": "IMC Oost",
+                "info": null
+            },
+            {
+                "roepnummer": "16-9499",
+                "afkorting": "COH",
+                "info": "Gouda"
+            }
+        ],
+        "ambulance": [
+            {
+                "roepnummer": "16-150",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-151",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-152",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-153",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-154",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-155",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-156",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-157",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-160",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-161",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-162",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-163",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-164",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-165",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-170",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-171",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-172",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-173",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-174",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-175",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-176",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-177",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-178",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-179",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-180",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-181",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-182",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-183",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-184",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-185",
+                "afkorting": "A-Ambulance",
+                "info": null
+            },
+            {
+                "roepnummer": "16-190",
+                "afkorting": "Mobiele Intensive Care Unit",
+                "info": null
+            },
+            {
+                "roepnummer": "16-319",
+                "afkorting": "A-Ambulance Infectieziekten",
+                "info": null
+            },
+            {
+                "roepnummer": "16-425",
+                "afkorting": "B-Ambulance",
+                "info": "Gouda"
+            },
+            {
+                "roepnummer": "16-426",
+                "afkorting": "B-Ambulance",
+                "info": "Gouda"
+            },
+            {
+                "roepnummer": "16-427",
+                "afkorting": "B-Ambulance",
+                "info": "Leiden"
+            },
+            {
+                "roepnummer": "16-428",
+                "afkorting": "B-Ambulance",
+                "info": "Leiden"
+            },
+            {
+                "roepnummer": "16-429",
+                "afkorting": "B-Ambulance",
+                "info": "Leiden"
+            },
+            {
+                "roepnummer": "16-595",
+                "afkorting": "Grootschalige Geneeskundige Bijstand Oost",
+                "info": "Gouda"
+            },
+            {
+                "roepnummer": "16-596",
+                "afkorting": "Grootschalige Geneeskundige Bijstand West",
+                "info": "Leiden"
+            },
+            {
+                "roepnummer": "16-790",
+                "afkorting": "Duin- en Bollenstreek",
+                "info": "Rijnsburgerweg 4-B, Voorhout"
+            },
+            {
+                "roepnummer": "16-791",
+                "afkorting": "Duin- en Bollenstreek",
+                "info": "Rijnsburgerweg 4-B, Voorhout"
+            },
+            {
+                "roepnummer": "16-792",
+                "afkorting": "Midden-Holland",
+                "info": "Bleulandweg 10, Gouda"
+            },
+            {
+                "roepnummer": "16-793",
+                "afkorting": "Midden-Holland",
+                "info": "Bleulandweg 10, Gouda"
+            },
+            {
+                "roepnummer": "16-794",
+                "afkorting": "Alphen aan den Rijn",
+                "info": "Meteoorlaan 4, Alphen aan den Rijn"
+            },
+            {
+                "roepnummer": "16-795",
+                "afkorting": "Alphen aan den Rijn",
+                "info": "Meteoorlaan 4, Alphen aan den Rijn"
+            },
+            {
+                "roepnummer": "16-796",
+                "afkorting": "Leiderdorp",
+                "info": "Simon Smitweg 2, Leiderdorp"
+            },
+            {
+                "roepnummer": "16-797",
+                "afkorting": "Leiderdorp",
+                "info": "Simon Smitweg 2, Leiderdorp"
+            },
+            {
+                "roepnummer": "16-811",
+                "afkorting": "Officier van Dienst - Geneeskundig / Rapid Responder West",
+                "info": "Leiden"
+            },
+            {
+                "roepnummer": "16-813",
+                "afkorting": "Officier van Dienst - Geneeskundig / Rapid Responder Oost",
+                "info": "Gouda"
+            },
+            {
+                "roepnummer": "16-815",
+                "afkorting": "Officier van Dienst - Geneeskundig / Rapid Responder Reserve",
+                "info": "Leiden"
+            },
+            {
+                "roepnummer": "16-830",
+                "afkorting": "Noodhulpteam",
+                "info": "Leiden"
+            },
+            {
+                "roepnummer": "16-835",
+                "afkorting": "Noodhulpteam",
+                "info": "Boskoop"
+            }
+        ]
+    }
+}
