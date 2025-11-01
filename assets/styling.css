@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "Pixelated MS Sans Serif";
+  src: url(https://unpkg.com/98.css@0.1.16/dist/ms_sans_serif.woff) format("woff");
+  src: url(https://unpkg.com/98.css@0.1.16/dist/ms_sans_serif.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:"Pixelated MS Sans Serif";src:url(https://unpkg.com/98.css@0.1.16/dist/ms_sans_serif_bold.woff) format("woff");src:url(https://unpkg.com/98.css@0.1.16/dist/ms_sans_serif_bold.woff2) format("woff2");font-weight:700;font-style:normal;
+}
+
+.window {
+    background-color: #d3d3d3;
+}
+
+/* menu[role=tablist] {
+    background-color: #C0C0C0 !important;
+} */
+
+menu[role=tablist]>li[aria-selected=true] {
+    background-color: #C0C0C0 !important;
+}
+
+menu[role=tablist]>li[aria-selected=false] {
+    background-color: #d3d3d3 !important;
+}
+
+table>thead>tr>* {
+    background-color: #cccccc;
+}
+
+table>tbody>tr>* {
+    background-color: #cccccc;
+}
+
+table {
+    background-color: #cccccc;
+}
+
+table tr {
+    height: min-content !important;
+}
+
+table td {
+    height: auto !important;
+    vertical-align: top !important;
+}
+
+table,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    box-shadow: inset 1px 1px #fff;
+}
+
+li[role=tab] {
+    background-color: #d3d3d3 !important;
+}
+
+li[role=tab][aria-selected=true] {
+    font-weight: bold;
+}
+
+#kladblok_input_hint {
+    z-index: 10 !important;
+    margin-left: 10ch;
+    width: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: gray;
+    font-style: italic;
+    display: none;
+
+    font-size: 11px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* #table_classificaties_body>tr.selected>* {
+    background-color: red !important;
+} */
+
+table>tbody>tr.highlighted>* {
+    background-color: navy !important;
+}
+
+#tabverzoeken {
+    height: 200px !important;
+}
+
+div.chat {
+    height: 150px !important;
+}
+
+.p2000_field:not(.no_flex) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+.p2000_field:not(:has(input[type="checkbox"]))>label {
+    display: block;
+    font-weight: 600;
+}
+
+#custom_p2000_window_body,
+.custom_p2000_section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#custom_p2000_window_body {
+    flex: 1;
+}
+
+#p2000_pagertekst_final {
+    /* duidelijk, monospaced maakt spaties makkelijker zichtbaar */
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Courier New", monospace;
+
+    /* vergroot de ruimte tussen woorden (alleen de spaties worden groter) */
+    word-spacing: 0.25em;
+
+    /* optioneel: klein beetje letter-spacing voor contrast */
+    letter-spacing: 0.02em;
+}
+
+#custom_p2000_window_body select {
+    cursor: pointer;
+}
+
+.p2000_bottom_bar {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: auto;
+}
+
+/* Voor Chrome, Safari, Edge, Opera */
+nput[type=number].remove-arrows::-webkit-outer-spin-button,
+input[type=number].remove-arrows::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Voor Firefox */
+input[type=number].remove-arrows {
+    -moz-appearance: textfield;
+}
+
+.p2000_fields_container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.p2000_fields_container>div:not(.min) {
+    flex: 1;
+}
+
+#p2000_eenheden_lijst,
+#p2000_props_lijst {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+}
+
+#p2000_props_lijst>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#p2000_props_lijst>button {
+    min-height: auto;
+    min-width: auto;
+    margin-left: auto;
+}
+
+#p2000_modal2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.leaflet-container {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
