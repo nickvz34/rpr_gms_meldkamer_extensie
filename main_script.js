@@ -1,10 +1,9 @@
 // ==UserScript==
-// @name         RPR Meldkamer Addon(s) V2
-// @namespace    http://tampermonkey.net/
+// @name         RPR GMS Meldkamer Extensie
+// @namespace    https://github.com/nickvz34/rpr_gms_meldkamer_extensie
 // @version      2025.10.13
-// @description  Implementeert realistische karakteristieken & meldingclassificaties
+// @description  Een Tampermonkey-script dat verschillende realistische functies toevoegt aan het huidige RPR GMS voor de Meldkamer.
 // @author       Nick v Z.
-// @match        https://127.0.0.1:5500/gms_testpage.html*
 // @match        https://gms.roleplayreality.nl/meldkamer/
 // @icon         https://intranet.roleplayreality.nl/shared/images/logo/favicon.png
 // @grant        GM_xmlhttpRequest
@@ -27,7 +26,7 @@ const $ = window.$;
 const toastr = window.toastr;
 const io = window.io;
 
-console.info('ℹ️ RPR Realistische Classificaties & Karakteristieken V2 wordt ingeladen..');
+console.debug('ℹ️ RPR Realistische Classificaties & Karakteristieken V2 wordt ingeladen..');
 
 let classificaties = [];
 let karakteristieken = [];
@@ -842,7 +841,7 @@ $(document).ready(() => {
         }
     });
 
-    toastr.success("Classificaties & Karakteristieken succesvol ingeladen!");
+    toastr.success("Alle externe data is succesvol ingeladen!");
 
     setupHTML();
 
