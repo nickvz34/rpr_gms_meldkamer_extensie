@@ -1219,7 +1219,7 @@
         "NAAM": "Soort voertuig",
         "WAARDE": "Personenauto",
         "SOORT_PARSER": "Combinatie parser",
-        "PAGERTEKST_BRW": "(Auto)",
+        "PAGERTEKST_BRW": "(auto)",
         "PLAATS_IN_ALARMTEKST_BRW": "Na MC",
         "ACTIES": []
     },
@@ -2758,7 +2758,7 @@
         "NAAM": "Soort voertuig",
         "WAARDE": "Bus",
         "SOORT_PARSER": "Combinatie parser",
-        "PAGERTEKST_BRW": "(Bus)",
+        "PAGERTEKST_BRW": "(bus)",
         "PLAATS_IN_ALARMTEKST_BRW": "Na MC",
         "ACTIES": []
     },
@@ -3576,7 +3576,7 @@
         "NAAM": "Soort voertuig",
         "WAARDE": "Personenauto",
         "SOORT_PARSER": "Combinatie parser",
-        "PAGERTEKST_BRW": "(Auto)",
+        "PAGERTEKST_BRW": "(auto)",
         "PLAATS_IN_ALARMTEKST_BRW": "Na MC",
         "ACTIES": []
     },
@@ -4578,7 +4578,7 @@
         "NAAM": "Soort voertuig",
         "WAARDE": "Bus",
         "SOORT_PARSER": "Combinatie parser",
-        "PAGERTEKST_BRW": "(Bus)",
+        "PAGERTEKST_BRW": "(bus)",
         "PLAATS_IN_ALARMTEKST_BRW": "Na MC",
         "ACTIES": []
     },
@@ -17819,7 +17819,7 @@
         "NAAM": "Soort voertuig",
         "WAARDE": "Bus",
         "SOORT_PARSER": "Combinatie parser",
-        "PAGERTEKST_BRW": "(Bus)",
+        "PAGERTEKST_BRW": "(bus)",
         "PLAATS_IN_ALARMTEKST_BRW": "Na MC",
         "ACTIES": []
     },
@@ -17832,7 +17832,7 @@
         "NAAM": "Soort voertuig",
         "WAARDE": "Personenauto",
         "SOORT_PARSER": "Combinatie parser",
-        "PAGERTEKST_BRW": "(Auto)",
+        "PAGERTEKST_BRW": "(auto)",
         "PLAATS_IN_ALARMTEKST_BRW": "Na MC",
         "ACTIES": []
     },
@@ -19611,7 +19611,7 @@
         "NAAM": "Soort voertuig",
         "WAARDE": "Personenauto",
         "SOORT_PARSER": "Combinatie parser",
-        "PAGERTEKST_BRW": "(Auto)",
+        "PAGERTEKST_BRW": "(auto)",
         "PLAATS_IN_ALARMTEKST_BRW": "Na MC",
         "ACTIES": []
     },
@@ -27264,7 +27264,7 @@
         "NAAM": "Soort voertuig",
         "WAARDE": "Bus",
         "SOORT_PARSER": "Enkele parser",
-        "PAGERTEKST_BRW": "(Bus)",
+        "PAGERTEKST_BRW": "(bus)",
         "PLAATS_IN_ALARMTEKST_BRW": "Na MC",
         "ACTIES": []
     },
@@ -27405,7 +27405,7 @@
         "NAAM": "Soort voertuig",
         "WAARDE": "Personenauto",
         "SOORT_PARSER": "Enkele parser",
-        "PAGERTEKST_BRW": "(Auto)",
+        "PAGERTEKST_BRW": "(auto)",
         "PLAATS_IN_ALARMTEKST_BRW": "Na MC",
         "ACTIES": []
     },

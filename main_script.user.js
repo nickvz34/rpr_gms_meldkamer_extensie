@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RPR GMS Meldkamer Extensie
 // @namespace    https://github.com/nickvz34/rpr_gms_meldkamer_extensie
-// @version      2025.11.01
+// @version      2025.11.02
 // @description  Een Tampermonkey-script dat verschillende realistische functies toevoegt aan het huidige RPR GMS voor de Meldkamer.
 // @author       Nick v Z.
 // @match        https://gms.roleplayreality.nl/meldkamer/
@@ -57,7 +57,7 @@ let p2000_postcode = '';
 let p2000_dia = '';
 let p2000_regio = '17';
 let p2000_beschikbare_eenheden = [];
-let p2000_props = [];
+let p2000_props = new Map();
 let p2000_mmt = false;
 
 let filterDebounce = null;
@@ -200,17 +200,19 @@ $(document).ready(() => {
         const checkboxes = document.querySelectorAll('#p2000_eenheden_lijst input[type="checkbox"]:checked');
         const selectedEenheden = Array.from(checkboxes).map(cbx => cbx.value);
 
+        const p2000PropsValues = Array.from(p2000_props.values());
+
         $('#p2000_pagertekst_final').val(
             [
                 String(p2000_prioriteit).toUpperCase(),
                 String(p2000_discipline).toLowerCase() === 'ambu' ? p2000_dia : '',
-                String(p2000_discipline).toLowerCase() === 'ambu' ? p2000_props.filter(prop => prop.place === 'VOOR').map(p => p.value).join(' ') : '',
+                String(p2000_discipline).toLowerCase() === 'ambu' ? p2000PropsValues.filter(prop => prop.place === 'VOOR').map(p => `(${p.texts.join(', ')})`).join(' ') : '',
                 String(p2000_discipline).toLowerCase() === 'ambu' ? p2000_mmt ? '(MMT)' : 'AMBU' : '',
                 String(p2000_discipline).toLowerCase() === 'ambu' ? selectedEenheden.map(roepnummer => roepnummer.replace(/-/g, "")).join(' ') : '',
                 String(p2000_discipline).toLowerCase() === 'brw' ? p2000_gespreksgroep : '',
-                String(p2000_discipline).toLowerCase() === 'brw' ? p2000_props.filter(prop => prop.place === 'VOOR').map(p => p.value).join(' ') : '',
+                String(p2000_discipline).toLowerCase() === 'brw' ? p2000PropsValues.filter(prop => prop.place === 'VOOR').map(p => `(${p.texts.join(', ')})`).join(' ') : '',
                 String(p2000_discipline).toLowerCase() === 'brw' ? p2000_classificatie : '',
-                String(p2000_discipline).toLowerCase() === 'brw' && p2000_props.filter(prop => prop.place === 'NA').length > 0 ? p2000_props.filter(prop => prop.place === 'NA').map(p => p.value).join(' ') : '',
+                String(p2000_discipline).toLowerCase() === 'brw' && p2000PropsValues.filter(prop => prop.place === 'NA').length > 0 ? p2000PropsValues.filter(prop => prop.place === 'NA').map(p => `(${p.texts.join(', ')})`).join(' ') : '',
                 p2000_straatnaam,
                 p2000_postcode !== '' ? isNaN(Number(p2000_postcode)) ? p2000_postcode : `PC${p2000_postcode}` : '',
                 String(p2000_discipline).toLowerCase() === 'brw' ? 'Rotterdam' : String(p2000_discipline).toLowerCase() === 'ambu' ? 'Rotterdam ROTTDM' : '',
@@ -350,7 +352,7 @@ $(document).ready(() => {
         p2000_dia = '';
         p2000_regio = '17';
         p2000_beschikbare_eenheden = [];
-        p2000_props = [];
+        p2000_props.clear();
         p2000_mmt = false;
 
         $('#p2000_discipline').val('');
@@ -731,8 +733,18 @@ $(document).ready(() => {
     });
 
     function removeP2000Prop(kar) {
-        p2000_props = p2000_props.filter(prop => prop.value !== kar);
-        $('#p2000_props_lijst').find(`[aria-labelledby="${kar}"]`).remove();
+        const propExists = p2000_props.has(kar.NAAM);
+        if (!propExists) return;
+
+        let propValue = p2000_props.get(kar.NAAM);
+        if (propValue.texts.length === 1) {
+            p2000_props.delete(kar.NAAM);
+        } else {
+            propValue.texts = propValue.texts.filter(txt => txt !== kar.PAGERTEKST_BRW.replace(/[()]/g, ""));
+            p2000_props.set(kar.NAAM, propValue);
+        }
+
+        $('#p2000_props_lijst').find(`[aria-labelledby="${kar.PAGERTEKST_BRW}"]`).remove();
 
         updateP2000PagerFinal();
     }
@@ -747,19 +759,17 @@ $(document).ready(() => {
             return toastr.error(`Er kon geen matchende karakteristiek gevonden worden!`);
         }
 
-        if (p2000_props.find(p => p.value === karakteristiek.PAGERTEKST_BRW)) {
-            $('#p2000_karakteristieken').val('');
-            return toastr.error(`Deze prop zit momenteel al in het pagerbericht!`);
+        if (p2000_props.has(karakteristiek.NAAM)) {
+            let currentValue = p2000_props.get(karakteristiek.NAAM);
+            currentValue.texts.push(karakteristiek.PAGERTEKST_BRW.replace(/[()]/g, ""));
+            p2000_props.set(karakteristiek.NAAM, currentValue);
+        } else {
+            p2000_props.set(karakteristiek.NAAM, { place: String(karakteristiek.PLAATS_IN_ALARMTEKST_BRW).toLowerCase() === 'voor mc' ? 'VOOR' : 'NA', texts: [karakteristiek.PAGERTEKST_BRW.replace(/[()]/g, "")] });
         }
-
-        p2000_props.push({
-            value: karakteristiek.PAGERTEKST_BRW,
-            place: String(karakteristiek.PLAATS_IN_ALARMTEKST_BRW).toLowerCase() === 'voor mc' ? 'VOOR' : 'NA'
-        });
 
         const $div = $(`<div aria-labelledby="${karakteristiek.PAGERTEKST_BRW}"><span>${karakteristiek.PAGERTEKST_BRW}</span></div>`);
         const $removeButton = $(`<button type="button">x</button>`);
-        $removeButton.on('click', e => removeP2000Prop(karakteristiek.PAGERTEKST_BRW));
+        $removeButton.on('click', e => removeP2000Prop(karakteristiek));
 
         $div.append($removeButton);
 
@@ -1304,8 +1314,6 @@ $(document).ready(() => {
             const straatnaamQuery = searchQuery.split("/")[1];
             const results = straatnamenFuse.search(straatnaamQuery);
 
-            console.log(straatnaamQuery, results);
-
             locatieTreffers = results.slice(0, 10).map((r) => ({ type: "straatnaam", value: r.item }));
             locatieTreffers.forEach((treffer, idx) => {
                 $lijst.append(`
@@ -1743,21 +1751,22 @@ $(document).ready(() => {
                     const value = String(match[0]).trim().toLowerCase();
 
                     const karHit = karakteristieken.filter(kar => String(kar.PAGERTEKST_BRW).trim() !== "").find(kar => String(kar.PRIMAIRE_PARSER).toLowerCase() == value || kar.PARSERTERMEN.includes(value));
-                    if (karHit) {
-                        karHits = karHits.filter(kar => kar.NAAM !== karHit.NAAM);
-                        karHits.push(karHit);
-                    }
+                    if (karHit) karHits.push(karHit);
                 }
 
                 for (const karHit of karHits) {
-                    p2000_props.push({
-                        value: karHit.PAGERTEKST_BRW,
-                        place: String(karHit.PLAATS_IN_ALARMTEKST_BRW).toLowerCase() === 'voor mc' ? 'VOOR' : 'NA'
-                    });
+
+                    if (p2000_props.has(karHit.NAAM)) {
+                        let currentValue = p2000_props.get(karHit.NAAM);
+                        currentValue.texts.push(karHit.PAGERTEKST_BRW.replace(/[()]/g, ""));
+                        p2000_props.set(karHit.NAAM, currentValue);
+                    } else {
+                        p2000_props.set(karHit.NAAM, { place: String(karHit.PLAATS_IN_ALARMTEKST_BRW).toLowerCase() === 'voor mc' ? 'VOOR' : 'NA', texts: [karHit.PAGERTEKST_BRW.replace(/[()]/g, "")] });
+                    }
 
                     const $div = $(`<div aria-labelledby="${karHit.PAGERTEKST_BRW}"><span>${karHit.PAGERTEKST_BRW}</span></div>`);
                     const $removeButton = $(`<button type="button">x</button>`);
-                    $removeButton.on('click', e => removeP2000Prop(karHit.PAGERTEKST_BRW));
+                    $removeButton.on('click', e => removeP2000Prop(karHit));
 
                     $div.append($removeButton);
 
@@ -2044,12 +2053,11 @@ $(document).ready(() => {
         const inciPostcodePart = ` | [${melding.melding_locatie}]`.toUpperCase();
 
         const charsTitel = 36 - (inciNummerPart.length + inciPostcodePart.length);
-        console.log(charsTitel);
         const inciClassificatiePart = presentatietekst.length <= charsTitel ? presentatietekst : presentatietekst.substring(0, charsTitel - 2) + '..';
 
-        const tsChannelName = [inciNummerPart, inciClassificatiePart, inciPostcodePart].join("");
+        const tsChannelName = [inciNummerPart, inciClassificatiePart.toLowerCase(), inciPostcodePart].join("");
 
-        return String(tsChannelName).toLowerCase();
+        return String(tsChannelName);
     }
 
     function getClassificatieFromTitel(titel) {
