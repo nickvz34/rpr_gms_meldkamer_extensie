@@ -11957,20 +11957,6 @@
         "ACTIES": []
     },
     {
-        "PRIMAIRE_PARSER": "-inzet brw wts2500",
-        "PARSERTERMEN": [
-            "-inzet brw wts2500",
-            "-ibww25",
-            "-wt2500"
-        ],
-        "NAAM": "Inzet Brw water win",
-        "WAARDE": "WTS2500",
-        "SOORT_PARSER": "Enkele parser",
-        "PAGERTEKST_BRW": "(WTS2500)",
-        "PLAATS_IN_ALARMTEKST_BRW": "Na MC",
-        "ACTIES": []
-    },
-    {
         "PRIMAIRE_PARSER": "-inzet brw wts4000",
         "PARSERTERMEN": [
             "-inzet brw wts4000",
@@ -22949,7 +22935,7 @@
         "NAAM": "Soort detectie",
         "WAARDE": "Algemeen",
         "SOORT_PARSER": "Enkele parser",
-        "PAGERTEKST_BRW": "(Soort detectie: Algemeen)",
+        "PAGERTEKST_BRW": "(detectie: Algemeen)",
         "PLAATS_IN_ALARMTEKST_BRW": "Na MC",
         "ACTIES": []
     },
@@ -23028,7 +23014,7 @@
         "NAAM": "Soort detectie",
         "WAARDE": "Hand",
         "SOORT_PARSER": "Enkele parser",
-        "PAGERTEKST_BRW": "(Detectie: Hand)",
+        "PAGERTEKST_BRW": "(detectie: Hand)",
         "PLAATS_IN_ALARMTEKST_BRW": "Na MC",
         "ACTIES": []
     },
@@ -23054,7 +23040,7 @@
         "NAAM": "Soort detectie",
         "WAARDE": "Rook/Hitte",
         "SOORT_PARSER": "Enkele parser",
-        "PAGERTEKST_BRW": "(Detectie: Rook/Hitte)",
+        "PAGERTEKST_BRW": "(detectie: Rook/Hitte)",
         "PLAATS_IN_ALARMTEKST_BRW": "Na MC",
         "ACTIES": []
     },
@@ -23080,7 +23066,7 @@
         "NAAM": "Soort detectie",
         "WAARDE": "Sprinkler",
         "SOORT_PARSER": "Enkele parser",
-        "PAGERTEKST_BRW": "(Detectie: Sprinkler)",
+        "PAGERTEKST_BRW": "(detectie: Sprinkler)",
         "PLAATS_IN_ALARMTEKST_BRW": "Na MC",
         "ACTIES": []
     },
