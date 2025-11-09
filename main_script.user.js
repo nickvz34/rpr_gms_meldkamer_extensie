@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RPR GMS Meldkamer Extensie
 // @namespace    https://github.com/nickvz34/rpr_gms_meldkamer_extensie
-// @version      2025.11.02
+// @version      2025.11.09
 // @description  Een Tampermonkey-script dat verschillende realistische functies toevoegt aan het huidige RPR GMS voor de Meldkamer.
 // @author       Nick v Z.
 // @match        https://gms.roleplayreality.nl/meldkamer/
@@ -1507,7 +1507,7 @@ $(document).ready(() => {
                     }
                 }
 
-                if (String(waarde).toUpperCase() == "GROOT" || String(waarde).toUpperCase() == "ZEER GROOT") {
+                if (!meldkamer.meldkamer_naam.toUpperCase().includes("SVD") && (String(waarde).toUpperCase() == "GROOT" || String(waarde).toUpperCase() == "ZEER GROOT")) {
                     $('.eenheid-in-kladblok').each((idx, elem) => {
                         const naam = $(elem).text().trim();
                         if (String(naam).toUpperCase().includes("SVD")) {
@@ -1542,7 +1542,7 @@ $(document).ready(() => {
                     }
                 }
 
-                if (parseInt(waarde.split(" ")[1], 10)) {
+                if (!meldkamer.meldkamer_naam.toUpperCase().includes("SVD") && parseInt(waarde.split(" ")[1], 10)) {
                     $('.eenheid-in-kladblok').each((idx, elem) => {
                         const naam = $(elem).text().trim();
                         if (String(naam).toUpperCase().includes("SVD")) {
@@ -1662,7 +1662,7 @@ $(document).ready(() => {
                     }
                 }
 
-                if (Number(waarde) > 0) {
+                if (!meldkamer.meldkamer_naam.toUpperCase().includes("SVD") && Number(waarde) > 0) {
                     $('.eenheid-in-kladblok').each((idx, elem) => {
                         const naam = $(elem).text().trim();
                         if (String(naam).toUpperCase().includes("SVD")) {
@@ -1697,7 +1697,7 @@ $(document).ready(() => {
 
         if (searchQuery === "") return;
 
-        if (searchQuery === "/pager") {
+        if (searchQuery === ".pager") {
             $('#p2000_locaties').empty();
             locaties.hectometerpalen.forEach(item => {
                 const $option = $('<option></option>');
