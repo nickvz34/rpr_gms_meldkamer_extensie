@@ -17597,7 +17597,7 @@
         "NAAM": "Onderdeel gebouw",
         "WAARDE": "Dak",
         "SOORT_PARSER": "Enkele parser",
-        "PAGERTEKST_BRW": "(Dak)",
+        "PAGERTEKST_BRW": "(dak)",
         "PLAATS_IN_ALARMTEKST_BRW": "Na MC",
         "ACTIES": []
     },
