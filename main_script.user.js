@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RPR GMS Meldkamer Extensie
 // @namespace    https://github.com/nickvz34/rpr_gms_meldkamer_extensie
-// @version      2025.11.09
+// @version      2025.11.18
 // @description  Een Tampermonkey-script dat verschillende realistische functies toevoegt aan het huidige RPR GMS voor de Meldkamer.
 // @author       Nick v Z.
 // @match        https://gms.roleplayreality.nl/meldkamer/
@@ -521,11 +521,11 @@ $(document).ready(() => {
         const checkboxes = document.querySelectorAll('#p2000_eenheden_lijst input[type="checkbox"]:checked');
         if (Array.from(checkboxes).length === 0) return toastr.error(`Er zijn geen eenheden gealarmeerd om te alarmeren!`);
 
-        let prio = document.getElementById("prio")?.value || ""
-        let regio = document.getElementById("regio")?.value || ""
+        let prio = document.getElementById("p2000_prioriteit")?.value || ""
+        let regio = document.getElementById("p2000_regio")?.value || ""
         let meldingTekst = document.getElementById("melding-tekst")?.value || ""
         let melding = meldingen.find(melding => melding.melding_id == huidigGeselecteerdeMelding.melding_id)
-        let dicipline = document.getElementById("dicipline")?.value || ""
+        let dicipline = document.getElementById("p2000_discipline")?.value || ""
         let tijd = new Date().toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Europe/Amsterdam' });
         let eigenaar = meldkamer.meldkamer_naam
         let selected_eenheden = Array.from(checkboxes).map(checkbox => checkbox.value);
@@ -540,15 +540,15 @@ $(document).ready(() => {
         selected_eenheden.forEach(async (roepnummer) => {
             let eenheid = eenheden.find(eenheid => eenheid.eenheid_roepnummer.includes(roepnummer));
 
-
             if (eenheid) {
                 const isAlGekoppeld = meldingObj?.gekoppelde_eenheden?.find(eenh => eenh.eenheid_roepnummer.includes(roepnummer));
                 const isAanMeldingGekoppeld = eenheid.eenheid_melding !== null;
 
+                const status = mapGetOnKoppel(eenheid.eenheid_afdeling);
                 meldingObj.gekoppelde_eenheden?.push({
                     eenheid_afdeling: eenheid.eenheid_afdeling,
                     eenheid_roepnummer: eenheid.eenheid_roepnummer,
-                    eenheid_status: mapGetOnKoppel(eenheid.eenheid_afdeling)
+                    eenheid_status: status
                 });
 
                 if (isAanMeldingGekoppeld && eenheid?.eenheid_melding_id !== melding?.melding_id) {
@@ -558,13 +558,15 @@ $(document).ready(() => {
 
                 if (!isAlGekoppeld) {
                     setTimeout(() => {
+                        socket.emit("eenheid:update", { eenheid_roepnummer: eenheid.eenheid_roepnummer, eenheid_status: status }); // Deze wordt enkel gebruikt voor het mdt
+
                         socket.emit("eenheid:melding_koppel",
                             eenheid.eenheid_roepnummer,
                             eenheid.eenheid_afdeling,
                             melding.melding_nummer,
                             melding.melding_id,
                             eenheid.eenheid_m_aantal,
-                            mapGetOnKoppel(eenheid.eenheid_afdeling),
+                            status,
                             meldingObj
                         );
                     }, 750);
@@ -575,12 +577,22 @@ $(document).ready(() => {
             }
         });
 
+        const pagerPrio = p2000_prioriteit;
+        const pagerDiscipline = p2000_discipline;
+
         $('#p2000_modal2').removeClass('is-active');
         ResetP2000Form();
 
         setTimeout(() => {
             socket.emit("create_kladblok_tekst", melding.melding_id, tijd, eigenaar, pagerBericht);
-        }, 1000);
+
+            if (pagerPrio === 'P 1' || pagerPrio === 'A1' || pagerPrio === 'A0' && (pagerDiscipline === 'brw' || pagerDiscipline === 'ambu')) {
+                const isOGSGiven = melding.kladblok.some(regel => regel.kladblok_bericht.includes(`-ogs${pagerDiscipline.charAt(0)}`));
+
+                if (!isOGSGiven) setTimeout(() => socket.emit("create_kladblok_tekst", melding.melding_id, tijd, eigenaar, `-ogs${pagerDiscipline.charAt(0)}`), 1_000);
+            }
+
+        }, 1_000);
 
     });
 
@@ -1369,7 +1381,7 @@ $(document).ready(() => {
 
         const $input = $draftRegel.find('input[type=text]');
 
-        const $tekstP = $(`<p class="kladblok-draft-content" style="user-select:none;cursor:pointer;flex:1;">${unsendMessages[idAsInt]}</p>`);
+        const $tekstP = $(`<p class="kladblok-draft-content" style="user-select:none;cursor:pointer;flex:1;">${unsendMessages[idAsInt]?.message || ''}</p>`);
         $tekstP.on('dblclick', () => onEditBtnClick(id));
         $input.replaceWith($tekstP);
 
@@ -1697,6 +1709,33 @@ $(document).ready(() => {
 
         if (searchQuery === "") return;
 
+        if (searchQuery === ".c1") {
+            socket.emit("meldkamer:cvier_update", huidigeMelding.melding_id, meldkamer.meldkamer_naam, 0);
+            $('#kladblok_sendmsg').val('');
+            return;
+        }
+
+        if (searchQuery === ".c4") {
+            socket.emit("meldkamer:cvier_update", huidigeMelding.melding_id, meldkamer.meldkamer_naam, 1);
+            $('#kladblok_sendmsg').val('');
+            return;
+        }
+
+        if (searchQuery === ".meteo") {
+            socket.emit("meldkamer:request_weather", huidigeMelding.melding_id, meldkamer.meldkamer_naam);
+            $('#kladblok_sendmsg').val('');
+            return;
+        }
+
+        if (searchQuery === ".sep") {
+            let meldingNummer = huidigeMelding.melding_nummer
+            let titel = `${huidigeMelding.melding_titel} (SEP #${meldingNummer})`;
+            nieuweMeldingAangemaakt = true
+            socket.emit("meldkamer:create_melding", huidigeMelding.discipline, huidigeMelding.priorit, huidigeMelding.melding_locatie, titel, meldkamer.meldkamer_naam, huidigeMelding.kladblok);
+            $('#kladblok_sendmsg').val('');
+            return;
+        }
+
         if (searchQuery === ".pager") {
             $('#p2000_locaties').empty();
             locaties.hectometerpalen.forEach(item => {
@@ -1817,8 +1856,9 @@ $(document).ready(() => {
                         status: status,
                         melding: meldingObj
                     };
-                    socket.emit("eenheid:ontkoppel", eenheid.eenheid_roepnummer, true)
+                    socket.emit("eenheid:ontkoppel", eenheid.eenheid_roepnummer, true);
                 } else {
+                    socket.emit("eenheid:update", { eenheid_roepnummer: eenheid.eenheid_roepnummer, eenheid_status: status }); // Deze wordt enkel gebruikt voor het mdt
                     socket.emit("eenheid:melding_koppel", eenheid.eenheid_roepnummer, eenheid.eenheid_afdeling, huidigGeselecteerdeMelding.nummer, huidigGeselecteerdeMelding.melding_id, eenheid.eenheid_m_aantal, status, meldingObj);
                 }
                 generateMeldingen();
@@ -1852,30 +1892,6 @@ $(document).ready(() => {
 
             for (const { type, message } of unsendMessages.filter(msg => msg !== null)) {
                 let melding = meldingen.find(melding => melding.melding_id.toString() == huidigGeselecteerdeMelding.melding_id.toString())
-
-                if (message === "/c1") {
-                    socket.emit("meldkamer:cvier_update", huidigGeselecteerdeMelding.melding_id, meldkamer.meldkamer_naam, 0);
-                    continue;
-                }
-
-                if (message === "/c4") {
-                    socket.emit("meldkamer:cvier_update", huidigGeselecteerdeMelding.melding_id, meldkamer.meldkamer_naam, 1);
-                    continue;
-                }
-
-                if (message === "/meteo") {
-                    socket.emit("meldkamer:request_weather", huidigGeselecteerdeMelding.melding_id, meldkamer.meldkamer_naam);
-                    continue;
-                }
-
-                if (message === "/sep") {
-                    if (!melding) toastr.error(`Er is geen melding geselecteerd om een separaat te maken!`);
-                    let meldingNummer = melding.melding_nummer
-                    let titel = "SEP #" + meldingNummer
-                    nieuweMeldingAangemaakt = true
-                    socket.emit("meldkamer:create_melding", melding.discipline, melding.priorit, melding.melding_locatie, titel, meldkamer.meldkamer_naam, melding.kladblok);
-                    continue;
-                }
 
                 if (message.startsWith("/loc")) {
                     const argument = String(message.replace("/loc", "").trim());
@@ -2103,4 +2119,154 @@ $(document).ready(() => {
     GM_addStyle(bsIconsCSS);
 
     console.log("✅ Externe CSS is geladen");
+})();
+
+(function () {
+    'use strict';
+    // Auto-Refresh logic
+    async function fetchAndExtract(url, variableNames = ["meldingen", "eenheden", "verzoeken", "instellingen", "meldkamer", "chat"]) {
+        const res = await fetch(url);
+        const html = await res.text();
+
+        // Parse HTML en vind het script dat de variabele bevat
+        const doc = new DOMParser().parseFromString(html, "text/html");
+        const scripts = Array.from(doc.querySelectorAll("script"));
+        const scriptEl = scripts.find(s => variableNames.some(name => new RegExp("\\b" + name + "\\b").test(s.textContent)));
+        if (!scriptEl) throw new Error("Script met opgegeven variabele(n) niet gevonden.");
+
+        const script = scriptEl.textContent;
+
+        function extractVarRaw(scriptText, name) {
+            // zoek direct "var <name> =" of "<name> =" (in geval van meerdere vars in 1 var-statement)
+            const varPattern = new RegExp("\\bvar\\s+" + name + "\\s*=", "g");
+            let m = varPattern.exec(scriptText);
+            let startIdx;
+            if (m) {
+                startIdx = m.index + m[0].length;
+            } else {
+                // fallback: zoek "<name> =" ergens in de script
+                const idx = scriptText.indexOf(name + " =");
+                if (idx === -1) return null;
+                startIdx = idx + (name + " =").length;
+            }
+
+            // skip whitespace
+            while (startIdx < scriptText.length && /\s/.test(scriptText[startIdx])) startIdx++;
+
+            if (startIdx >= scriptText.length) return null;
+
+            const opening = scriptText[startIdx];
+            // als het object/array begint met { of [
+            if (opening === "{" || opening === "[") {
+                const openChar = opening;
+                const closeChar = openChar === "{" ? "}" : "]";
+                let depth = 0;
+                let i = startIdx;
+                // scan en houd rekening met strings (", '), en escaped quotes
+                for (; i < scriptText.length; i++) {
+                    const ch = scriptText[i];
+                    if (ch === '"' || ch === "'") {
+                        // skip string literal
+                        const quote = ch;
+                        i++;
+                        while (i < scriptText.length) {
+                            if (scriptText[i] === "\\") {
+                                i += 2; // skip escaped char
+                            } else if (scriptText[i] === quote) {
+                                break;
+                            } else {
+                                i++;
+                            }
+                        }
+                    } else if (ch === openChar) {
+                        depth++;
+                    } else if (ch === closeChar) {
+                        depth--;
+                        if (depth === 0) {
+                            // include closing bracket
+                            return scriptText.slice(startIdx, i + 1);
+                        }
+                    }
+                }
+                // als we hier komen: geen match gevonden (ongebalanceerd)
+                return null;
+            } else {
+                // primitieve waarde (nummer, string, boolean) of object/array zonder whitespace: lees tot semicolon
+                let i = startIdx;
+                let inString = false;
+                let strQuote = null;
+                for (; i < scriptText.length; i++) {
+                    const ch = scriptText[i];
+                    if (!inString && (ch === '"' || ch === "'")) {
+                        inString = true;
+                        strQuote = ch;
+                    } else if (inString) {
+                        if (ch === "\\") {
+                            i++; // skip escape
+                        } else if (ch === strQuote) {
+                            inString = false;
+                            strQuote = null;
+                        }
+                    } else if (ch === ";") {
+                        break;
+                    }
+                }
+                return scriptText.slice(startIdx, i).trim();
+            }
+        }
+
+        function safeParse(raw) {
+            if (raw === null) return null;
+            try {
+                return JSON.parse(raw);
+            } catch (e) {
+                // fallback: try to convert single quotes to double quotes (basic), remove trailing commas — best-effort
+                try {
+                    let s = raw
+                        .replace(/(['"])?([a-zA-Z0-9_]+)\1\s*:/g, '"$2":') // probeer ongequote keys te quoten (voor eenvoudige gevallen)
+                        .replace(/'/g, '"') // single -> double quotes
+                        .replace(/,\s*([}\]])/g, '$1'); // verwijder trailing commas
+                    return JSON.parse(s);
+                } catch (e2) {
+                    // laatste redmiddel: return raw string
+                    console.warn("safeParse kon niet parsen, returning raw string. Error:", e2);
+                    return raw;
+                }
+            }
+        }
+
+        const result = {};
+        for (const name of variableNames) {
+            const raw = extractVarRaw(script, name);
+            result[name] = safeParse(raw);
+        }
+        return result;
+    }
+
+
+    const setFreshData = async () => {
+
+        const result = fetchAndExtract("", ["meldingen", "eenheden", "verzoeken"]);
+        if (!result) return;
+
+        if (result?.meldingen && window.meldingen) window.meldingen = result.meldingen;
+        if (result?.verzoeken && window.verzoeken) window.verzoeken = result.verzoeken;
+        if (result?.eenheden && window.eenheden) window.eenheden = result.eenheden;
+
+        toastr.success("De data is succesvol geupdatet!");
+    }
+
+
+    const announceRefresh = (seconds) => {
+        console.log(seconds)
+        toastr.info(`De data wordt in ${seconds} seconden automatisch geupdatet!`);
+
+        if (seconds === 30) setTimeout(() => announceRefresh(15), 15 * 1000); // Repeated message for over 15 seconds;
+        if (seconds === 15) setTimeout(() => announceRefresh(5), 5 * 1000); // Repeated message for over 5 seconds;
+    }
+
+    setInterval(() => announceRefresh(30), 1.5 * 60 * 1000); // Start announcement 30 seconds before refresh.
+    setInterval(setFreshData, 2 * 60 * 1000); // AutoRefresh the data each 2 minutes.
+
+    toastr.info(`Auto-Refresh is gestart!`);
 })();
